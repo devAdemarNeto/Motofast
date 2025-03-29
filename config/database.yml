@@ -1,0 +1,21 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  username: motofast
+  password: motofast123
+  host: localhost
+
+development:
+  <<: *default
+  database: motofast_development
+
+test:
+  <<: *default
+  database: motofast_test
+
+production:
+  <<: *default
+  database: motofast_production
+  username: motofast
+  password: <%= ENV['MOTOFAST_DATABASE_PASSWORD'] %>

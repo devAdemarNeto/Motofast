@@ -1,0 +1,6 @@
+  [1m[35m (158.2ms)[0m  [1m[35mCREATE DATABASE "motofast_development" ENCODING = 'unicode' /*application='Motofast'*/[0m
+  [1m[35m (207.0ms)[0m  [1m[35mCREATE DATABASE "motofast_development" ENCODING = 'unicode' /*application='Motofast'*/[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[35mSET search_path TO public /*application='Motofast'*/[0m
+  [1m[35m (521.8ms)[0m  [1m[35mCREATE DATABASE "motofast_development" ENCODING = 'unicode' /*application='Motofast'*/[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[35mSET search_path TO public /*application='Motofast'*/[0m
+  [1m[35m (791.2ms)[0m  [1m[35mCREATE DATABASE "motofast_test" ENCODING = 'unicode' /*application='Motofast'*/[0m
