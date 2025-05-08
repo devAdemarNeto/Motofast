@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  marca: MyString
+  modelo: MyString
+  ano: 1
+  placa: MyString
+  cor: MyString
+  quilometragem: 1
+  valor_diaria: 9.99
+  status: MyString
+  foto: MyString
+
+two:
+  marca: MyString
+  modelo: MyString
+  ano: 1
+  placa: MyString
+  cor: MyString
+  quilometragem: 1
+  valor_diaria: 9.99
+  status: MyString
+  foto: MyString
